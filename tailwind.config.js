@@ -20,7 +20,7 @@ export default {
       },
       screens: {
         'sm':'375px',
-        'lg':'1440px',
+        'lg':'2560px',
       }
     },
   },
