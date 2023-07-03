@@ -55,7 +55,7 @@ const Nav = () => {
           <h1 className='py-3 lg:pt-9  text-white sm:text-[1rem] md:text-[1.4rem] lg:text-[2rem] font-medium '>IP Address Tracker</h1>
           <form onSubmit={handleSubmit} autoComplete='off' className={` lg:pb-[15rem] md:pb-[6rem]  sm:pb-[10rem] ${Style.flexCenter}`}>
             <input
-              className=' sm:w-[50%] md:w-[30%] p-2 lg:text-lg  lg:p-3 rounded-s-md outline-none placeholder: pl-2 text-sm placeholder:lg:text-base  '
+              className=' sm:w-[50%] md:w-[30%] p-2 lg:text-lg  lg:p-3 rounded-s-md outline-none placeholder: pl-2 text-sm placeholder:lg:text-base placeholder:sm:text-[0.75rem] '
               id="ipaddress"
               name="ipaddress"
               placeholder='Search for any IP adress or domain'
