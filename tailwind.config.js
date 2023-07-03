@@ -19,6 +19,7 @@ export default {
         bold:'700',
       },
       screens: {
+        'sm':'375px',
         'lg':'2560px',
       }
     },
