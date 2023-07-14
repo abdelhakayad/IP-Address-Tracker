@@ -64,7 +64,7 @@ const Nav = () => {
               value={ipAddress}
               onChange={(e)=> setIpAddress(e.target.value)}
              />
-            <button type="submit" className='bg-primary p-3 lg:p-[1.21rem] rounded-e-md text-white hover:bg-secondary'><img src={iconArrow} alt="" className='w-[13px] h-[13px] object-contain' /></button>
+            <button type="submit" className='bg-primary p-[0.77rem] lg:p-[1.21rem] rounded-e-md text-white hover:bg-secondary'><img src={iconArrow} alt="" className='w-[13px] h-[13px] object-contain' /></button>
           </form>
         </div>
       </section>
