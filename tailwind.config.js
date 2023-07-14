@@ -20,7 +20,8 @@ export default {
       },
       screens: {
         'sm':'375px',
-        'lg':'2560px',
+        'lg':'1440px',
+        'xl':'2560px',
       }
     },
   },
